@@ -1,35 +1,35 @@
 body {	
-    /* Sets the width of the body to 890px, limiting the content's maximum width on the page */
+    
     width: 890px;
 
-    /* Centers the body content horizontally by setting equal margins on both sides */
+    
     margin: 0 auto;
 
     /* Defines the font properties for the body, including:
        - Font size: 10pt
        - Line height: 1.5em (for proper spacing between lines)
        - Font family: Helvetica, "Helvetica Neue", Arial, sans-serif (fallback fonts in case the first is unavailable) */
-    font: 10pt/1.5em Helvetica, "Helvetica Neue", Arial, sans-serif;
+    font: 12pt/1.5em verdana,, futura,Georgia ;
 
-    /* Sets a light blue background color for the page */
-    background: #F0F8FF;
+   
+    background: #808080;
 }
 
 header{h1 {	
 font-size: 40px;    
-font-family: Arial, Helvetica, sans-serif;	
+font-family: verdana, futura, georgia;	
 text-align: center;	
 text-transform: uppercase;	
 color: #000000;
 }
 h3 {		
 font-size: 30px;    
-font-family: Arial, Helvetica, sans-serif;	text-align: center;	
+font-family: verdana, futura, georgia;	text-align: center;	
 color: #000000;	
 }
 h4 {		
 font-size: 20px;    
-font-family: Arial, Helvetica, sans-serif;	text-align: center;	
+font-family: verdana, futura, georgia;	text-align: center;	
 color: #000000;	
 }
 }
