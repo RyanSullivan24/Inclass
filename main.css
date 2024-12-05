@@ -33,39 +33,44 @@ font-family: verdana, futura, georgia;	text-align: center;
 color: #000000;	
 }
 }
-
-nav{ /* Style the unordered list */
-ul {
-    list-style-type: none; /* Removes default bullet points from the list items */
-    margin: 0; /* Removes default margin around the unordered list */
-    padding: 0; /* Removes default padding inside the unordered list */
-    overflow: hidden; /* Ensures the list items are contained within the parent element */
-    background-color: #191970; /* Sets a dark blue background for the navigation bar */
-    border-radius: 20px; /* Rounds the corners of the navigation bar */
+nav {
+    /* Add a fixed width for the navigation area and position it */
+    width: 200px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #964B00; /* Navigation background */
+    border-radius: 10px;
 }
 
-/* Style individual list items */
-li {
-    float: left; /* Positions the list items horizontally in a row */
+nav ul {
+    list-style-type: none; /* Remove bullet points */
+    margin: 0;
+    padding: 0;
 }
 
-/* Style the links within list items */
-li a {
-    display: block; /* Makes the entire area of the link clickable */
-    color: #FFFFFF; /* Sets the text color of the links to white */
-    text-align: center; /* Centers the text within the link */
-    padding: 14px 16px; /* Adds space inside the link for better readability */
-    text-decoration: none; /* Removes the default underline from links */
+nav li {
+    /* Remove float and use block layout */
+    display: block;
+    margin: 0;
+    padding: 0;
 }
 
-/* Style for hover state on non-active links */
-li a:hover:not(.active) {
-    background-color: #D3D3D3; /* Changes the background color to light gray when hovering */
+nav li a {
+    display: block; /* Make the links span full width */
+    color: #FFFFFF; /* Text color */
+    text-align: left; /* Align text to the left */
+    padding: 14px 16px; /* Add padding for spacing */
+    text-decoration: none; /* Remove underline */
 }
 
-/* Style for the active link */
-.active {
-    background-color: #4CAF50; /* Sets the background color of the active link to green */
+nav li a:hover:not(.active) {
+    background-color: #D3D3D3; /* Change background color on hover */
+}
+
+nav .active {
+    background-color: #4CAF50; /* Active link color */
+
 }   
 }
 
